@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class Visit extends BaseEntity {
 
     private LocalDate date;
-    private String desciption;
+    private String description;
 
     @ManyToOne
     private Pet pet;
